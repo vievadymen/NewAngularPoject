@@ -1,0 +1,50 @@
+<form action="/examples/actions/confirmation.php" method="post">
+  <h2>Ajout d'un utilisateur</h2>
+  <p class="hint-text">Veuillez renseigner les champs suivants</p>
+  <div class="form-group">
+    <div class="row">
+      <div class="col"><input type="text" class="form-control" name="first_name" placeholder=" Nom" required="required"></div>
+      <div class="col"><input type="text" class="form-control" name="last_name" placeholder=" Prenom" required="required"></div>
+    </div>
+  </div>
+  <div class="form-group">
+    <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" name="tel" placeholder="Tel" required="required">
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" name="adresse" placeholder="Adresse" required="required">
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" name="username" placeholder="Nom d'utilisateur" required="required">
+  </div>
+  <div class="form-group">
+    <div class="form-check-label">Profil</div>
+    <div class="custom-control custom-radio">
+      <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked="">
+      <label class="custom-control-label" for="customRadio1">Admin</label>
+    </div>
+    <div class="custom-control custom-radio">
+      <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+      <label class="custom-control-label" for="customRadio2">Apprenant</label>
+    </div>
+    <div class="custom-control custom-radio">
+    <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio2">CM</label>
+  </div>
+  <div class="custom-control custom-radio">
+  <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+  <label class="custom-control-label" for="customRadio2">Formateur</label>
+  </div>
+  </div>
+  <div class="form-group">
+    <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+  </div>
+  <div class="form-group">
+    <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-success btn-lg btn-block">Enregistrer</button>
+  </div>
+</form>

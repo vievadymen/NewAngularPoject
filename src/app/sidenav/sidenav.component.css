@@ -1,0 +1,37 @@
+.avatardiv {
+  text-align: center;
+  padding:5%;
+}
+.admindiv {
+  text-align: center;
+}
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+}
+.nav-link{
+color: black;
+}
+ .nav-link.active {
+   background-color: #ffbe76;
+  color: white;
+}
+
+a:hover:not(.active) {
+  background-color: silver;
+  color: white;
+}
+a.active{
+  background-color: #c26b07;
+}
+.sidebar {
+
+
+
+}
+.sidebar.a{
+
+}
