@@ -1,0 +1,69 @@
+<div class="container">
+<div class="row">
+  <div class="col-md-6">
+  <h2> Référentiels </h2>
+  </div>
+    <div class="col-md-6">
+      <button type="button" class="btn btn-primary" routerLink="creation_ref">
+        <span class="iconify" data-icon="bx:bx-list-plus" data-inline="false" style="color: white;" data-width="40" data-height="40"> </span>
+      </button>
+</div>
+</div>
+  <router-outlet></router-outlet>
+<div class="row">
+  <div class="card mb-3" style="max-width: 18rem;">
+    <div class="card-header text-white  bg-primary">Header</div>
+    <div class="card-body bg-light">
+      <h5 class="card-title">Présentation</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <button class="btn btn-dark float-right" id="detail" data-toggle="collapse" data-target="#collapseDetail" aria-expanded="true" aria-controls="collapseDetail">details</button>
+    </div>
+    <div class="collapse" aria-labelledby="detail" id="collapseDetail">
+    <div class="card-body list-group-item bg-light" id="lien1">
+      <h5 class="card-title">
+        <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Groupe de compétences
+        </button>
+      </h5>
+      <div id="collapseOne" class="collapse " aria-labelledby="lien1" >
+      <p class="card-text">Some quick example text </p>
+      </div>
+    </div>
+    <div class="card-body list-group-item bg-light" id="lien2">
+      <h5 class="card-title">
+        <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+        Programme
+        </button>
+      </h5>
+      <div id="collapse2" class="collapse " aria-labelledby="lien2" >
+      <p class="card-text">Some quick example text </p>
+      </div>
+    </div>
+    <div class="card-body list-group-item bg-light" id="lien3">
+      <h5 class="card-title">
+        <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+        Critères d'évaluation
+        </button>
+      </h5>
+      <div id="collapse3" class="collapse " aria-labelledby="lien3" >
+      <p class="card-text">Some quick example text</p>
+      </div>
+    </div>
+    <div class="card-body list-group-item bg-light" id="lien4">
+      <h5 class="card-title">
+        <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+        Critères d'admission
+        </button>
+      </h5>
+      <div id="collapse4" class="collapse " aria-labelledby="lien4" >
+      <p class="card-text">Some quick example text</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+
+</div>

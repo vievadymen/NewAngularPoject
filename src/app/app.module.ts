@@ -16,6 +16,14 @@ import { UserTableComponent } from './user-table/user-table.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ProfilsComponent } from './profils/profils.component';
 import { AddUserComponent } from './add-user/add-user.component';
+import { ProfilDeSortieComponent } from './profil-de-sortie/profil-de-sortie.component';
+import { ReferentielComponent } from './referentiel/referentiel.component';
+import { GroupeDeCompetencesComponent } from './groupe-de-competences/groupe-de-competences.component';
+import { CreationReferentielComponent } from './referentiel/creation-referentiel/creation-referentiel.component';
+import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { CreationGroupeCompetenceComponent } from './groupe-de-competences/creation-groupe-competence/creation-groupe-competence.component';
+import { CompetencesComponent } from './competences/competences.component';
+import { CreationCompetenceComponent } from './creation-competence/creation-competence.component';
 
 
 @NgModule({
@@ -30,6 +38,14 @@ import { AddUserComponent } from './add-user/add-user.component';
     SidenavComponent,
     ProfilsComponent,
     AddUserComponent,
+    ProfilDeSortieComponent,
+    ReferentielComponent,
+    GroupeDeCompetencesComponent,
+    CreationReferentielComponent,
+    JumbotronComponent,
+    CreationGroupeCompetenceComponent,
+    CompetencesComponent,
+    CreationCompetenceComponent,
   ],
   imports: [
     BrowserModule,

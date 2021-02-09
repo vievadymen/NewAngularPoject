@@ -1,52 +1,53 @@
-<style>
-  /* Default height for small devices */
-  #intro-example {
-    height: 400px;
-  }
-
-  /* Height for devices larger than 992px */
-  @media (min-width: 992px) {
-    #intro-example {
-      height: 600px;
-    }
-  }
-</style>
-
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" routerLink="/">Academy</a>
+
+  <span> <img src="assets/logosa.png" style="width: 40px"></span>
+  <span><a class="navbar-brand" routerLink="/">Academy</a> </span>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarColor02">
-    <ul class="navbar-nav mr-auto">
+  <div class="collapse navbar-collapse text-center mr-4" id="navbarColor02">
+    <ul class="navbar-nav ">
       <li class="nav-item active">
+        <span class="iconify " data-icon="ant-design:home-outlined" data-inline="false" data-width= "20" style="color: white"></span>
         <a class="nav-link" routerLink="/">Accueil
-          <span class="sr-only">(current)</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <span class="iconify " data-icon="el:list-alt" data-inline="false" data-width= "20" style="color: white"></span>
+        <a class="nav-link" >briefs</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">A propos</a>
+        <span class="iconify " data-icon="el:list-alt" data-inline="false" data-width= "20" style="color: white"></span>
+        <a class="nav-link" >Rendus</a>
+      </li>
+      <li class="nav-item">
+        <span class="iconify" data-icon="mdi-light:forum" data-inline="false" data-width= "20" style="color: white"></span>
+        <a class="nav-link" href="#">Forum</a>
+      </li>
+      <li class="nav-item">
+        <span class="iconify " data-icon="bi:people-fill" data-inline="false" data-width="20" style="color: white"></span>
+        <a class="nav-link" routerLink="users">Utilisateurs</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <span class="iconify " data-icon="carbon:settings" data-inline="false" data-width= "20" style="color: white" ></span>
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Paramètres</a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Separated link</a>
+          <a class="dropdown-item" routerLink="profils">Profils</a>
+          <a class="dropdown-item" routerLink="referentiels">Référentiels</a>
+          <a class="dropdown-item" routerLink="groupe_competences" >Groupes de compétences</a>
+          <a class="dropdown-item" routerLink="competences" >Compétences</a>
+          <a class="dropdown-item" >Groupes de tags</a>
+          <a class="dropdown-item" >Profils de sortie</a>
+          <a class="dropdown-item" >Promo</a>
         </div>
       </li>
+      <li class="nav-item">
+        <span class="iconify " data-icon="raphael:history" data-inline="false" data-width= "20" style="color: white"></span>
+        <a class="nav-link" >Historique promos</a>
+      </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
 
